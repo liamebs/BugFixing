@@ -111,7 +111,7 @@ public class StudentVersion {
         System.out.println("The answer is: " + sum);  // added ;
     }
 
-    @Test  // Make test method visible to JUnit
+    @Test  // Make test method visible to JUnit and executable on demand
     public void testSumMethod() {
         // Test for two positive numbers
         assertEquals(15, sumMethod(8, 7), 0.001);
